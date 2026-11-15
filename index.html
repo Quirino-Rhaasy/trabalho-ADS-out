@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty - Catálogo de Personagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Universo Rick and Morty</h1>
+        <p>Catálogo de personagens consumido em tempo real via API REST</p>
+        
+        <div class="controles">
+            <input type="text" id="campo-busca" placeholder="Buscar personagem por nome (ex: Rick, Morty)...">
+            <button id="btn-buscar">Buscar</button>
+        </div>
+    </header>
+
+    <main id="cards-container" class="grid-personagens">
+        <!-- Os cards serão gerados dinamicamente aqui pelo JavaScript -->
+    </main>
+
+    <footer>
+        <p>Desenvolvido com HTML, CSS e JavaScript Puro | Dados: The Rick and Morty API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
